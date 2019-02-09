@@ -1,0 +1,22 @@
+h1
+          {
+              color:red;
+              font-family: Arial;
+              font-size:  56px;
+              background-color: green;
+
+          }
+          p{
+              font-family: Calibri;
+              font-size:16px            }
+
+           .main{
+               color: yellow;
+              font-size: 128px
+
+           }
+           #spec {
+               color: cornflowerblue;
+              font-size: 128px
+
+           }
