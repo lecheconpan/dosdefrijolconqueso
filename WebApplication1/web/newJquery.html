@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Scripts/Jquery/jquery-3.3.1.js" type="text/javascript"></script>
+        
+    
+    
+        <script>
+           $(document).ready(function(){ 
+               $("#button").click(function(){
+                   
+                   var num1= $("#num1").val();
+                   num1 =parseInt(num1);
+                   var num2 = $("#num2").val();
+                   num2 = parseInt(num2);
+                   var result = num1 + num2;
+                   $("#result").val(result);
+               });
+           });
+              
+    
+        </script>
+        </head>
+        <body>
+            
+         number1: <input type="number" id="num1" value="6"/>
+         <br><br>
+         
+         number2: <input type="number" id="num2" value="4"/>
+         <br><br>
+         result: <input type="number" id="result" />
+         <br><br>
+         <button id="button">Add</button>
+    </body>
+</html>
